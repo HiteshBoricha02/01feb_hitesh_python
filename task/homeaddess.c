@@ -3,5 +3,7 @@
 void main() 
 // globle variable
 {
-    printf("near indiracircle,tops tach,rajkot,");
+    printf("near indiracircle,tops tach,");
+    printf("\n rajkot gujrat,");
+    printf("\n360005,");
 }
