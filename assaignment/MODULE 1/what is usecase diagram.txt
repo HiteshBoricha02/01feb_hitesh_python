@@ -1,0 +1,19 @@
+
+
+             1 .what is use case diagram?
+
+
+    ==> A use case diagram is a type of UML (Unified Modeling Language) diagram used to visualize and describe the functional requirements of a system or software application. 
+        It is a high-level representation of how users interact with a system and the different ways in which it can be used to meet their needs.
+
+    ==> The use case diagram includes actors (such as users, other systems or external entities) and use cases 
+        (which represent specific tasks or goals that the system can perform to fulfill the needs of the actors).
+        It shows the relationships and interactions between actors and use cases and provides an overview of the system's functionality.
+
+    ==> Use case diagrams are used in the early stages of software development to identify the requirements of the system and to help stakeholders understand how the system will work.
+    ==> They can also be used to communicate the system's
+    ==> functionality to developers and other stakeholders throughout the development process.
+
+
+
+
