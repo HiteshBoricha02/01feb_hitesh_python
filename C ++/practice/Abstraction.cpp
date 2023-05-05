@@ -20,5 +20,5 @@ int main()
     Abstract abs;
     abs.get();
     abs.show();    
-    return 0;
+    
 }
