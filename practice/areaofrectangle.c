@@ -11,5 +11,5 @@ void main()
  scanf("%f",&length);
  area = width*length;
  printf("\n total area of rectangle is : %f",area);
-
+ return 0;
 }
