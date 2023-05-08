@@ -79,5 +79,5 @@ int main()
    //  total bill 
     printf("\nYour Total Bill is : %d",totalbill);
 
-    return 0; 
+    
 }
