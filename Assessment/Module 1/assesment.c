@@ -5,7 +5,7 @@ char more;
 // Variables for item, quantity, cost, and total bill                 
 int item, quantity, cost, totalbill;    
 
-void show()
+int print()
 {
     // Displaying the menu to the user
     printf("Welcome to Our Restaurant");
@@ -16,9 +16,10 @@ void show()
     printf("\n\t4. Fries           - 80 rs");
     printf("\n\t5. Cold Drinks     - 35 rs");
     printf("\n\n -- So What Would you like to Have? --    ");
+    return 0;
 }
 
-void get()
+int scan()
 {
     do
     {
@@ -71,14 +72,15 @@ void get()
 
     } while (more == 'Y' || more == 'y');
        // Displaying the total bill
-    printf("\nYour Total Bill is: %d", totalbill);   
+    printf("\nYour Total Bill is: %d", totalbill);
+    return 0;   
 }
 
 int main()
 {
      // Displaying the menu
-    show();  
+    print();  
      // Getting the user's order
-    get();   
+    scan();   
     return 0;
 }
