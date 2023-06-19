@@ -4,9 +4,9 @@
 int main()
 {
     int no, rev = 0, a;
-     //no = 64728;
+    // no = 64728;
     printf("Enter Number :");
-    scanf("%d",&no);
+    scanf("%d", &no);
     while (no != 0)
     {
         a = no % 10;
