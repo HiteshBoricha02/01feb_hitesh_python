@@ -1,0 +1,109 @@
+    1 what do you understand by database
+
+ ===>   A database is a structured collection of data that is organized, managed, and stored in a computer system. 
+ ===>   It is designed to efficiently
+        1) DBMS  (database management system)
+        2) RDBMS ( relational database management system)
+
+      --------------------------------------------------------------------------------------------------------------
+
+      2 what is normalization ?
+===>    Normalization is a process in database design that helps eliminate data redundancy and improve data 
+===>    integrity by organizing data into well-structured tables. It involves applying a set of rules and guidelines
+
+        1 first normal form  (1FN)
+        2 second normal form (2FN)
+        3 third normal form  (3FN)
+ 
+      --------------------------------------------------------------------------------------------------------------
+
+      3 what is difference between DBMS and RDBMS?
+
+           DBMS :  DBMS (DATABASE MANAGEMENT SYSTEM)
+                   A DBMS can manage different types of databases, network, and relational. 
+                   It may not necessarily follow a strict tabular structure and may allow more flexible data models.
+            ===>   DBMS may or may not enforce data integrity constraints, such as  referential integrity, 
+                   and data validation rules. 
+          RDBMS :  RDBMS(RELATIONAL DATABASE MANAGEMENT SYSTEM)
+                   RDBMS specifically deals with relational databases. 
+            ===>   RDBMS enforces strict data integrity constraints through various mechanisms like primary keys, foreign keys,
+                   check constraints, and unique constraints. 
+
+      --------------------------------------------------------------------------------------------------------------
+
+       4 what is MF Cod rule of RDBMS system?
+
+  
+
+
+
+
+
+
+
+
+       5 What do you understand by Data Redundancy?
+
+
+             ===>    Data redundancy refers to the duplication or repetition of data within a database or information system. 
+                   It occurs when the same data is stored in multiple locations or multiple instances of the same data exist
+                   within a dataset. Data redundancy can occur unintentionally due to design flaws, data integration processes, 
+                   or manual data entry errors.
+
+              
+
+        6 What is DDl interpreter
+
+      
+             ===>  A DDL (DATA DEFINITION LANGUAGE) interpreter is a component or software tool that is responsible 
+                   for interpreting and executing DDL statements in a database management system (DBMS). 
+                   DDL is a subset of SQL (Structured Query Language) used to define and manage the structure of a database, 
+                   1) insert 
+
+                   2) update
+
+                   3) delete
+
+ -------------------------------------------------------------------------------------------------------------------     
+
+        7 What is DML compiler in SQL?
+
+
+             ===> In SQL (Structured Query Language), a DML (Data Manipulation Language) compiler refers to the component 
+                  responsible for parsing and executing DML statements. DML statements are used to manipulate data within 
+                  a database, including operations such as inserting, updating, deleting, and retrieving data.
+
+----------------------------------------------------------------------------------------------------------------------
+
+        8  What is SQL key constraints writing an example of SQL key constraints
+
+             ===> SQL, key constraints are used to define rules and relationships between columns or sets of columns 
+                  in a table. They help enforce data integrity and maintain the integrity of the database.
+
+                  types of key constraints:
+                  1) primary key :- ALTER TABLE `TABLE_NAME` ADD PRIMARY KEY (`COLUMN NAME`);
+
+                  2) unique key  :- ALTER TABLE `TABLE_NAME` ADD UNIQUE KEY (`COLUMN NAME`);
+
+                  3)foreign key  :- ALTER TABLE `TABLE_NAME` ADD FOREIGN KEY (`COLUMN NAME`)REFERENCES 
+                                      `REFERENCE_TABLE_NAME`(`COLUMN NAME`);
+
+--------------------------------------------------------------------------------------------------------------------
+
+        9 What is save point? How to create a save point write a Query 
+
+                 A SAVEPOINT is a point in a transaction wen you roll the transaction back to a certain point
+                 without rolling back to the entire transaction
+
+                  Query :- SAVEPOINT my_savepoint;
+
+
+        10 What is trigger and how to create a trigger in SQL?
+
+
+      ===>        a trigger is a stored a procedure in database  which a automatically invokes when ever a 
+                  special event in the database  occurs
+                  for example, a trigger can be invoked when a row is inserted in to a specified table.
+      ===>        create trigger [trigger_name] [before_alter]
+                           
+          

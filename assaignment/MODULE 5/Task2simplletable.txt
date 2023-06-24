@@ -1,0 +1,19 @@
+                                                                        
+
+
+
+    details table:
+	==> Create Table `Details`(`First Name` Char (11), `Last Name` Char (11) , `Address` Varchar (25) , `City` Char (15),`Age` int (7));
+
+     INSERT VALUE:
+	==> Insert Into `Deatail`(`First Name` , `Last Name` , `Address` , `City`,`Age`) 
+	    Values ('Tony','Stark','10880 Malibu Point','New York','50'),('Bruce','Wayne',1007 Mountain Drive','gotham','48');
+
+	    INSERT INTO `details`(`First Name`,`Last Name`,`Address`,`City`,`Age`)
+	    VALUES ('Diana','Themyscira','Paradise Island','Amazons',5000),('Steve','Rogers','569 Leaman Place','New York',104),
+       	       ('Micky','Mouse','105 Town Square','Mouseton',93),('Donald','Duck','1313 13th Street','DuckBurg',89);  
+
+                                      
+
+
+                                                                        ------------------    
