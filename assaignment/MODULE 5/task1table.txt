@@ -5,8 +5,8 @@
 	 ->insert into `Student`(`Roll_No`,`Name`,`Branch`) Values (01,'hitesh','bca');
 	 ->Alter Table `Student` Add Primary Key (`Roll_No`);
 	 ->Alter Table `Student` Change `Roll_No` `Roll_No` int (3) Auto_Increment;
-	 ->insert into `Student`(`Roll_No`,`Name`,`Branch`) Values (02,'mihir','ce'),(03,'Bhagirath','BcA'),(04,'Raj','BA');
-	
+	 ->insert into `Student`(`Roll_No`,`Name`,`Branch`) Values(01,'hitesh','bca') 
+           (02,'mihir','ce'),(03,'Bhagirath','BcA'),(04,'Raj','BA');	
 
 
 	        create Second Table For Forigen Key
