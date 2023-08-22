@@ -1,0 +1,43 @@
+1) Write SQL query to solve the problem given below
+
+Consider a database containing two tables named as Customer and Salesman
+For this you need to create a Customer table
+
+In Customer table attributes are customer id, customer name, city, grade and
+salesman id
+
+Table : Customer
+
+==> CREATE table `customer`(`customer_id` int (6), `cust_name` varchar (11), `city` varchar (11), `grade` int (6), `salesman_id` int (6));
+
+==> INSERT INTO `customer`(`customer_id`, `cust_name`, `city`, `grade`, `salsesman_id`) VALUES
+    ('3002','Nick Rimando','New york','100','5001'), ('3007','Brad davis','New york','200','5001'),
+    ('3005','Graham Zusi','California','200','5002'),('3008','Julain Green','London','300','5002'),
+    ('3004','Fabian Johnson','Paris','300','5006'),('3009','Geoff cameron','Berlin','100','5003'),
+    ('3003','Jozy Altidor','Moscow','200','5007'),('3001','Brad Guzan','London','','5005');
+
+ADD PRIMARY KEY:
+    ALTER TABLE `salesman` ADD PRIMARY KEY (`salesman_id`);
+
+
+table : salesman
+
+==> CREATE TABLE `salesman` (`salesman_id` int (6), `name` varchar (11), `city` varchar (11), `commission` varchar (6));
+
+    INSERT INTO `salesman`(`salesman_id`, `name`, `city`, `commission`) VALUES ('5001','James Hoog','New york','0.15'),
+    ('5002','Nail Knite','Paris','0.13'),('5005','Pit Alex','London','0.11'),('5006','Mc Lyon','Paris','0.14'),
+    ('5007','Paul Adam','Rome','0.13'),('5003','Lausen Hen','San Jose','0.12'); 
+
+
+------------------------------------
+
+
+
+SELECT  `salesman`.`name`,`customer`.`cust_name` FROM `salesman` LEFT JOIN  `customer` ON `salesman`.`name` = `customer`.`cust_name`;
+
+SELECT  `salesman`.`city`,`customer`.`city` FROM `salesman` LEFT JOIN  `customer` ON `salesman`.`city` = `customer`.`city`;
+
+
+SELECT  `salesman`.`commission`,`customer`.`salesman_id` FROM `salesman` LEFT JOIN  `customer` ON `salesman`.`commission` = `customer`.`salesman_id`;
+
+    
