@@ -7,7 +7,7 @@ int main()
     int num,sum = 0;
 
     // Enter for get value 
-    printf("Find Even number from 1 to --> ");
+    printf("Find Even number from 1 to --n ");
     scanf("%d",&num);
 
     // For print even numbers
