@@ -30,7 +30,7 @@ int main()
         break;
 
     default:
-        printf("\nNot Available");
+        printf("\ninvalid Number");
         
         break;
     }
