@@ -32,6 +32,23 @@
       --------------------------------------------------------------------------------------------------------------
 
        4 what is MF Cod rule of RDBMS system?
+        
+      1.) The Foundation Rule 
+      2.) Inforamtion rule 
+      3.) Gauranted Access Rule
+      4.) Systematic Treatment of null values
+      5.) Active online catalog based on the realtioanal model
+      6.) Comprehensive Data SubLanguage Rule
+      7.) View Updating Rule
+      8.) Relational Level Operation Rule
+      9.) Physical Data Independence Rule
+      10.) Logical Data Independence Rule
+      11.) Integrity Independence Rule
+      12.) Distribution Independence Rule
+      13.) Non Subversion Rule
+
+
+    
 
   
 
